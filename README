@@ -8,7 +8,7 @@
 
 ## Overview
 
-MASiVar is a dataset designed to promote investigation of diffusion MRI variability consisting of 319 diffusion scans acquired at 3T from b = 1000 to 3000 s/mm<sup>2</sup> across 97 different healthy subjects and four different scanners at three different sites. Cohort I consists of one subject scanned repeatedly on one scanner. This subject underwent three separate imaging sessions and acquired 3-4 scans per session. Cohort II consists of 5 subjects each scanned on 3-4 different scanners across 3 institutions. Each subject underwent 1-2 sessions on each scanner and had one scan acquired per session. Cohort III consists of 91 subjects all scanned on one scanner. Each subject underwent 1-5 sessions on the scanner and had two scans acquired per session. 
+MASiVar is a dataset consisting of 319 diffusion scans acquired at 3T from b = 1000 to 3000 s/mm<sup>2</sup> across 14 healthy adults, 83 healthy children (5 to 8 years), three sites, and four scanners curated to promote investigation of diffusion MRI variability. Cohort I consists of one adult subject scanned repeatedly on one scanner. This subject underwent three separate imaging sessions and acquired 3-4 scans per session. Cohort II consists of 5 adult subjects each scanned on 3-4 different scanners across 3 institutions. Each subject underwent 1-2 sessions on each scanner and had one scan acquired per session. Cohort III consists of 8 adult subjects all scanned on one scanner. Each subject underwent 1-6 sessions on the scanner and had two scans acquired per session. Cohort IV consists of 83 child subjects all scanned on one scanner. Each subject underwent 1-2 sessions on the scanner and had two scans acquired per session.
 
 The acquisitions acquired per scan are as follows:
 
@@ -26,13 +26,14 @@ The acquisitions acquired per scan are as follows:
 | | 2465 or 2500 | 96 |
 | III | 1000 | 40 |
 | | 2000 | 56 |
+| IV | 1000 | 40 |
+| | 2000 | 56 |
 
 ## Naming Scheme
 
 MASiVar is in BIDS format with the following naming scheme:
 
 * Subject: __sub-c__\<cohort\>__s__\<subject\>
-    * For cohort III, subjects with prefix A are adults and those with prefix C are children.
 * Session: __ses-s__\<site (and scanner if applicable)\>__x__\<session number\>
 * Acquisition: __acq-b__\<shell\>__n__\<number of directions\>__r__\<resolution\>__pe__\<phase encoding direction\>
     * Shells are indicated by b-value (s/mm<sup>2</sup>)
@@ -51,3 +52,4 @@ Both raw and preprocessed MASiVar data are available de-faced and de-identified.
 ## Changelog
 
 * v1.0.0: Initial Release
+* v2.0.0: Split cohort III into cohorts III and IV to give pediatric subjects in their own cohort (i.e., "cIIIsA00" -> "cIIIs01" and "cIIIsC000" -> "cIVs000")
