@@ -43,7 +43,7 @@ MASiVar is in BIDS format with the following naming scheme:
 
 Example: `sub-cIs1_ses-s1Ax2_acq-b3000n96r25x25x25peAPP_run-105_dwi.nii.gz` is the fifth acquisition in the first scan of session 2 at site 1A for subject 1 of cohort I acquired with 96 directions at b = 3000 s/mm<sup>2</sup> and a resolution of 2.5mm isotropic in the posterior-to-anterior phase encoding direction.
 
-Note: Most of the sessions in MASiVar are named sequentially, however, some are not due to missed or truncated imaging sessions.
+Note: Most of the subjects and sessions are named sequentially, however, some are not due to missed or truncated imaging sessions.
 
 ## Derivatives
 
