@@ -2,7 +2,7 @@
 
 ## Authors and Reference
 
-[Leon Y. Cai](mailto:leon.y.cai@vanderbilt.edu), Qi Yang, Praitayini Kanakaraj, Vishwesh Nath, Allen T. Newton, Heidi A. Edmonson, Jeffrey Luci, Benjamin N. Conrad, Gavin R. Price, Colin B. Hansen, Cailey I. Kerley, Karthik Ramadass, Fang-Cheng Yeh, Hakmook Kang, Eleftherios Garyfallidis, Maxime Descoteaux, Francois Rheault, Kurt G. Schilling, and Bennett A. Landman. MASiVar: Multisite, Multiscanner, and Multisubject Acquisitions for Studying Variability in Diffusion Weighted Magnetic Resonance Imaging. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.12.03.408567v2), 2021. Preprint.
+[Leon Y. Cai](mailto:leon.y.cai@vanderbilt.edu), Qi Yang, Praitayini Kanakaraj, Vishwesh Nath, Allen T. Newton, Heidi A. Edmonson, Jeffrey Luci, Benjamin N. Conrad, Gavin R. Price, Colin B. Hansen, Cailey I. Kerley, Karthik Ramadass, Fang-Cheng Yeh, Hakmook Kang, Eleftherios Garyfallidis, Maxime Descoteaux, Francois Rheault, Kurt G. Schilling, and Bennett A. Landman. MASiVar: Multisite, Multiscanner, and Multisubject Acquisitions for Studying Variability in Diffusion Weighted Magnetic Resonance Imaging. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.12.03.408567v3), 2021. Preprint.
 
 [Medical-image Analysis and Statistical Interpretation (MASI) Lab](https://my.vanderbilt.edu/masi), Vanderbilt University, Nashville, TN, USA
 
@@ -47,5 +47,5 @@ Note: Most of the subjects and sessions are named sequentially, however, some ar
 
 ## Derivatives
 
-Both raw and preprocessed MASiVar data are available de-faced and de-identified. Diffusion images were preprocessed with PreQual v1.0.0 under default settings. More information about PreQual can be found here: https://github.com/MASILab/PreQual. In short, all acquisitions per scan were denoised with the Marchenko-Pastur technique, intensity normalized such that the average b = 0 s/mm<sup>2</sup> intensity distributions within the brain maximally intersected, and distortion corrected. Distortion correction included susceptibility-induced distortion correction using APA b = 0 s/mm<sup>2</sup> volumes when available and the Synb0-DisCo deep learning framework when not, eddy current-induced distortion correction, intervolume motion correction, and slice-wise signal drop out imputation.
+Both raw and preprocessed MASiVar data are available de-faced and de-identified. Diffusion images were preprocessed with PreQual v1.0.0 under default settings. More information about PreQual can be found here: https://github.com/MASILab/PreQual. In short, all acquisitions per scan were denoised with the Marchenko-Pastur PCA technique, intensity normalized, and distortion corrected. Distortion correction included susceptibility-induced distortion correction using APA b = 0 s/mm<sup>2</sup> volumes when available and the Synb0-DisCo deep learning framework and T1 images when not, eddy current-induced distortion correction, intervolume motion correction, and slice-wise signal drop out imputation.
 
