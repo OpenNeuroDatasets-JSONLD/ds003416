@@ -3,5 +3,4 @@ Revision history for MASiVar dataset
 2.0.0 2021-03-01
   - Split cohort III into cohorts III and IV to give pediatric subjects their own cohort (i.e., "cIIIsA00" -> "cIIIs00" and "cIIIsC000" -> "cIVs000").
 1.0.0 2020-12-03
-
   - Initial Release
