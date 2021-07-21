@@ -24,7 +24,7 @@
     "Kurt G. Schilling",
     "Bennett A. Landman"
   ],
-  "Acknowledgements": "The authors thank E. Brian Welch for his help with image acquisition and study design and Zachary J. Williams for his insight into bootstrapping. This work was conducted in part using the resources of the Advanced Computing Center for Research and Education at Vanderbilt University, Nashville, TN.",
+  "Acknowledgements": "The authors thank E. Brian Welch for his help with image acquisition and study design, Zachary J. Williams for his statistical insight, and the reviewers for their thoughtful and critical feedback in improving this manuscript. This work was conducted in part using the resources of the Advanced Computing Center for Research and Education at Vanderbilt University, Nashville, Tennessee.",
   "HowToAcknowledge": "Please cite the included reference.",
   "Funding": [
     "NIH 5R01EB017230",
@@ -39,7 +39,7 @@
     "All images were acquired only after informed consent under supervision of the project Institutional Review Board."
   ],
   "ReferencesAndLinks": [
-    "Leon Y. Cai, Qi Yang, Praitayini Kanakaraj, Vishwesh Nath, Allen T. Newton, Heidi A. Edmonson, Jeffrey Luci, Benjamin N. Conrad, Gavin R. Price, Colin B. Hansen, Cailey I. Kerley, Karthik Ramadass, Fang-Cheng Yeh, Hakmook Kang, Eleftherios Garyfallidis, Maxime Descoteaux, Francois Rheault, Kurt G. Schilling, and Bennett A. Landman. MASiVar: Multisite, Multiscanner, and Multisubject Acquisitions for Studying Variability in Diffusion Weighted Magnetic Resonance Imaging. bioRxiv, 2021. Preprint."
+    "Leon Y. Cai, Qi Yang, Praitayini Kanakaraj, Vishwesh Nath, Allen T. Newton, Heidi A. Edmonson, Jeffrey Luci, Benjamin N. Conrad, Gavin R. Price, Colin B. Hansen, Cailey I. Kerley, Karthik Ramadass, Fang-Cheng Yeh, Hakmook Kang, Eleftherios Garyfallidis, Maxime Descoteaux, Francois Rheault, Kurt G. Schilling, and Bennett A. Landman. MASiVar: Multisite, Multiscanner, and Multisubject Acquisitions for Studying Variability in Diffusion Weighted Magnetic Resonance Imaging. Magnetic Resonance in Medicine, 2021."
   ]
 }
 
